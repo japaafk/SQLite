@@ -4,7 +4,9 @@ A função `DISTINCT` é usada para eliminar valores duplicados dos resultados d
 
 ### Tabela sem `DISTINCT`:
 
-```SELECT Country FROM Customer LIMIT 10;```
+```
+SELECT Country FROM Customer LIMIT 10;
+```
 
 **Saída:**
 
@@ -23,7 +25,9 @@ A função `DISTINCT` é usada para eliminar valores duplicados dos resultados d
 
 ### Tabela com `DISTINCT`:
 
-```SELECT DISTINCT Country FROM Customer LIMIT 8;```
+```
+SELECT DISTINCT Country FROM Customer LIMIT 8;
+```
 
 **Saída:**
 
