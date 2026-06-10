@@ -1,10 +1,10 @@
-# Aprendizado Gradual de SQLite3 com a Base de Dados Chinook
+# SQLite3 com a Base de Dados Chinook
 
 ## 📖 Sobre o Projeto
 
 Este repositório tem como objetivo ensinar e demonstrar o aprendizado gradual do **SQLite3**, utilizando uma abordagem prática baseada na resolução de consultas e exercícios sobre a base de dados **Chinook**.
 
-Ao longo do conteúdo, serão apresentados conceitos fundamentais e intermediários de bancos de dados relacionais, permitindo que o estudante compreenda desde operações básicas até consultas mais elaboradas utilizando a linguagem SQL.
+Ao longo do conteúdo, serão apresentados conceitos fundamentais e intermediários de bancos de dados relacionais, permitindo que o leitor compreenda desde operações básicas até consultas mais elaboradas utilizando a linguagem SQL.
 
 A base de dados Chinook simula o funcionamento de uma loja de músicas digitais, contendo tabelas relacionadas a clientes, funcionários, artistas, álbuns, faixas, gêneros musicais, vendas e outros elementos que representam cenários reais de negócio. Dessa forma, o aprendizado ocorre em um ambiente próximo ao encontrado em aplicações reais.
 
@@ -25,15 +25,17 @@ Este repositório utiliza a base de dados **Chinook**, amplamente empregada para
 
 A estrutura da base contém entidades como:
 
-- Clientes
-- Funcionários
-- Artistas
-- Álbuns
-- Faixas Musicais
-- Gêneros
-- Playlists
-- Faturas
-- Itens de Fatura
+- Customer(Clientes)
+- Employee(Funcionários)
+- Artist(Artistas)
+- Album(Álbuns)
+- Track(Faixas Musicais)
+- Genre (Gêneros)
+- MediaType(Tipo de Mídia)
+- Playlist
+- PlaylistTrack(Faixa da Playlist)
+- Invoice(Faturas)
+- InvoiceLine(Itens de Fatura)
 
 Essa variedade de tabelas permite explorar diferentes tipos de consultas e relacionamentos.
 
